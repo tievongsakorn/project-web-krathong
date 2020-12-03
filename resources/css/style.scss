@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box ;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  html {
+    position:relative; 
+    min-height: 100%;
+    // font-size: 62.5%;
+    
+  }
+
+.containtr_kt{
+ height: 100%;
+ width: 100%;
+ background-color: rgb(7, 7, 66);
+}
+
+
+
+.kt__test {
+
+    z-index: 99;
+      width: 100px;
+      height: 2.5rem;
+      font-weight: bold;
+      position: absolute;
+      animation: mymove 40s infinite;
+      bottom: 30vh;
+    }
+    
+    #divkt_a {animation-timing-function: linear;}
+    #divkt_b {animation-timing-function: ease;}
+    #divkt_c {animation-timing-function: ease-in;}
+    #divkt_d {animation-timing-function: ease-out;}
+    #divkt_e {animation-timing-function: ease-in-out;}
+    
+    @keyframes mymove {
+      from {left: -10%;}
+      to {left: 130%;}
+    }
+    
+    .krathong1{
+    //background-image: url('../assets/img/Bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    #kt_pic {
+      z-index: 2;
+    }
+    .boxtk {
+      /* opacity: 0; */
+      align-self: flex-end;
+      bottom: 80px;
+      font-size: 13px;
+      cursor: pointer;
+      background-color: rgb(255, 255, 255,0.8);
+      border-radius: 5px;
+      border: 1px solid #000;
+      padding: 5px;
+      width: fit-content;
+      padding: 0.5em;
+    }
+  
+    
+   
+    .button_kt {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        height: 100%;
+        cursor:pointer;
+        /* overflow: hidden; */
+        outline:none;
+        
+    }
+    
+    .button_kt {
+        img{
+            width: 10;
+            max-height: 200px;
+        
+          }
+    }
+    [type=radio] { 
+      display: none;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .button_kt {
+
+        input[type="radio"]:checked + label {
+            border: 1px solid red;
+        }
+    }
+  
+  .slide-wave {
+  padding-top: 2em;
+  width: 100vw;
+  height:10vh;
+  max-width: 100vw
+  } 
+  
+  .slide-wave {
+    img {
+        width:120%;
+        height:30vh;
+      animation: 20s slide-right infinite;
+      position: absolute;
+      left:0;
+      bottom:0;
+      z-index: 3;
+      }
+  }
+
+  @keyframes slide-right {
+    0% {margin-left:-30vh}
+  25%  {margin-left:0vh}
+  50%  {margin-left:-30vh}
+  75%  {margin-left:0vh}
+  100% {margin-left:-30vh}
+  }
+  
+  
+  .slide-wave {
+    #wave2 {
+        height:50vh;
+        filter: brightness(80%) ;
+        animation: 30s slide-right ease-in infinite;
+        z-index: 2;
+      }
+  }
+  
+  
+  
+  .slide-wave {
+    #wave3 {
+        height:45vh;
+        bottom:10vh;
+        filter: brightness(90%) ;
+        animation: 20s slide-right ease-in-out infinite;
+        z-index: 1;
+      }
+  }
+  
