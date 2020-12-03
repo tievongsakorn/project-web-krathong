@@ -12,7 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js');
+mix.js('resources/js/script.js', 'public/js');
 mix.sass('resources/css/style.scss', 'public/css');
 mix.browserSync({
-    proxy: 'http://localhost:81/wab_kratsong'
+    proxy: 'http://localhost/web_krathong/'
 });

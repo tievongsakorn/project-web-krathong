@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light" data-toggle="affix">
   <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
       {{-- <a class="navbar-brand" href="#">Brand</a> --}}
       {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">

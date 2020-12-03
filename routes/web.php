@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', function () {
-    return view('pages.kt');
-});
+Route::get('/', 'App\Http\Controllers\KrathongController@index');
 
 Route::get('p_kt', function () {
     return view('pages.p_kt');
@@ -26,3 +24,4 @@ Route::get('p_kt', function () {
 Route::get('vdo_kt', function () {
     return view('pages.vdo_kt');
 });
+Route::post('savekrathong', 'App\Http\Controllers\KrathongController@savekrathong');
