@@ -69,15 +69,19 @@
         </div>
       </div>
       {{-- <---------------------------------- ส่วนของ Modal Popup----------------------------> --}}
-    <div class="containtr_baner" style="">
-        <div class="baner">
+    <div class="container_baner" style="">
+        <div class="baner d-flex text-center align-items-center">
             <h1>เว็บลอยกระทงออนไลน์</h1>
             <br>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-success btn-kt" data-toggle="modal" data-target="#exampleModal">
                 เริ่มลอยกระทง
             </button>
+            <div class="moon"><span style=" background-image: url({{ asset('img/moon.png') }}) ;" ></span></div>
+            <video id="bg_vdo" loop muted autoplay>
+                <source src="{{ asset('vdo/bg_vdo.mp4') }}">
+            </video>
         </div>
-        <div class="container_kt">
+        <div class="container_kt" style=" background-image: url({{ asset('img/bg_river.jpg') }}) ;" >
         @if (count($_data)>0)
         <?php $kt_way = 0 ?>
             @foreach ($_data as $rec)
