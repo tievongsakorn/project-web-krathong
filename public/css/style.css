@@ -71,7 +71,7 @@ footer {
   width: 130px;
   height: 130px;
   position: absolute;
-  z-index: 99999999;
+  z-index: 99;
   transition: inherit;
   -webkit-animation: infinite 35s moon_move;
           animation: infinite 35s moon_move;
@@ -138,7 +138,7 @@ footer {
 
 .item-relative {
   position: relative;
-  z-index: 999999999999;
+  z-index: 9;
 }
 
 .item-slide1 {
@@ -339,5 +339,11 @@ footer {
   border: 2px solid green;
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
+}
+
+.vdo_box1 {
+  height: 100px;
+  width: 70%;
+  background-color: #ddf166;
 }
 

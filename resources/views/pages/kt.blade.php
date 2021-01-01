@@ -104,7 +104,9 @@
         @endif
         </div>
     </div>
-    
+    <div class="box_kt" style="height: 10vh; width:100%">
+
+    </div>
     
 
 @endsection

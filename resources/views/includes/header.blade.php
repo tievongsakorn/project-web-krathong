@@ -22,13 +22,13 @@
 </nav> --}}
 
 <nav class="navbar navbar-expand-lg  fixed-top navbar-light bg-light">
-  <a class="navbar-brand" href="#">ควยไอแว่น ไออ้วนขี้อวด</a>
+  <a class="navbar-brand" href="#">ลอยกระทงออนไลน์</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse navbar-center" id="navbarNavDropdown">
     <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
             <a class="nav-link" href="{{ url('/') }}">หน้าแรก</a>
         </li>
         <li class="nav-item">
