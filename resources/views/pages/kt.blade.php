@@ -78,7 +78,7 @@
             </button>
             <div class="moon"><span style=" background-image: url({{ asset('img/moon.png') }}) ;" ></span></div>
             <video id="bg_vdo" loop muted autoplay>
-                <source src="{{ asset('vdo/bg_vdo.mp4') }}">
+                <source src="{{ asset('vdo/fireworks_ne_.mp4') }}">
             </video>
         </div>
         <div class="container_kt" style=" background-image: url({{ asset('img/no.jpg') }}) ;" >
