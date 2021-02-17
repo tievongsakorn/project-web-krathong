@@ -25,3 +25,12 @@ Route::get('vdo_kt', function () {
     return view('pages.vdo_kt');
 });
 Route::post('savekrathong', 'App\Http\Controllers\KrathongController@savekrathong');
+
+Route::get('vdo_kt1', function () {
+    return view('pages.vdo_kt1');
+});
+
+Route::get('vdo_kt2', function () {
+    return view('pages.vdo_kt2');
+});
+

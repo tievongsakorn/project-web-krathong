@@ -51,11 +51,11 @@
                         <br>
                             <h5 class="mb-3"> <strong>โปรดใส่คำอธิษฐานในการลอยกระทงออนไลน์</strong></h5>
                                 <div class="mb-3">
-                                    <label for="name" class="form-label">ชื่อเรา<span class="text-danger"> *</span></label>
+                                    <label for="name" class="form-label">ใส่ชื่อ<span class="text-danger"> *</span></label>
                                     <input type="text" required class="form-control" id="name" name="name" ng-maxlength="30" ng-model="member.name" required placeholder="ชื่อเรา หรือ คนที่เรารัก">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="comment">อยากอธิษฐานว่า<span class="text-danger"> *</span></label>
+                                    <label for="comment">ใส่คำอธิษฐาน<span class="text-danger"> *</span></label>
                                     <textarea  class="form-control" required ng-model="member.message" id="kt_wiah" name="kt_wish" ng-maxlength="200" rows="5" placeholder="คำอธิษฐาน"></textarea>
                                 </div>
                                 <input type="submit" class="btn btn-success btn-block" value="ปล่อยทระทงลงสู่แม่น้ำ">
@@ -81,7 +81,7 @@
                 <source src="{{ asset('vdo/bg_vdo.mp4') }}">
             </video>
         </div>
-        <div class="container_kt" style=" background-image: url({{ asset('img/bg_river.jpg') }}) ;" >
+        <div class="container_kt" style=" background-image: url({{ asset('img/no.jpg') }}) ;" >
         @if (count($_data)>0)
         <?php $kt_way = 0 ?>
             @foreach ($_data as $rec)

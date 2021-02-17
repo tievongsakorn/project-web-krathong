@@ -1,13 +1,13 @@
-<footer>
-<hr>
+
 <center>
-<h3>
-    warakorn
-</h3>
+    <footer class="bg-light py-5">
+        <div class="container"><div class="small text-center text-muted">สงวนลิขสิทธิ์ โดย <br> นายวรากร อุตม์ทิพย์  <br> นักศึกษาจาก <br> มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา ตาก <br> สาขาวิชาเทคโนโลยีสารสนเทศ คณะวิทยาศาสตร์และเทคโนโลยีการเกษตร </div></div>
+    </footer>
+
 </center>
 
 
-</footer>
+
 
 
 

@@ -1,17 +1,17 @@
 @extends('weblayouts.default')
 
 @section('content')
-<div class="container">
+<div class="container" style="background-color: rgb(213, 230, 142)">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/Kt_1.1.png') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/KT_1_2.png') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/KT_1_3.png') }}" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -31,18 +31,18 @@
     </p>
     
 </div>
-<br>
-<div class="container">
+
+<div class="container" style="background-color:rgb(213, 230, 142) ">
     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/KT_1.2.png') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/KT_2.1.png') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('img/G1.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('img/KT_2.2.png') }}" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">

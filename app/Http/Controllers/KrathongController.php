@@ -9,7 +9,7 @@ class KrathongController extends Controller
 {
     public function index() {
         // $_data = DB::select('select * from krathong limit 10') ;
-        $_data = DB::table('krathong')
+        $_data = DB::table('krathong')->orderBy('id', 'desc')
                 ->limit(10)
                 ->get();
         // return dd($_data) ;
@@ -19,7 +19,7 @@ class KrathongController extends Controller
         $name = $request->input('name');
         $kt_wish = $request->input('kt_wish');
         $kt_type = $request->input('kt_type');
-        $strSQL = "insert into krathong (name,kt_wish,kt_type) values ('".$name."','".$kt_wish."','".$kt_type."')" ;
+        $strSQL = "insert into krathong (name,kt_wish,kt_type) values ('".$name."','".$kt_wish."','".$kt_type."') ;" ;
         DB::insert($strSQL);
         return redirect('/');
     }
