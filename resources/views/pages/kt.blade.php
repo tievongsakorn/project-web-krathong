@@ -58,6 +58,9 @@
                                     <label for="comment">ใส่คำอธิษฐาน<span class="text-danger"> *</span></label>
                                     <textarea  class="form-control" required ng-model="member.message" id="kt_wiah" name="kt_wish" ng-maxlength="200" rows="5" placeholder="คำอธิษฐาน"></textarea>
                                 </div>
+
+                                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Floykrathong-tak.com%2F&layout=button_count&size=large&appId=1335930826769161&width=90&height=28" width="90" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                
                                 <input type="submit" class="btn btn-success btn-block" value="ปล่อยทระทงลงสู่แม่น้ำ">
                                 <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
                             </form>
