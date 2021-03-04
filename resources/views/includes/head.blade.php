@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:url"           content="https://loykrathong-tak.com/" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="คุณ {{$rec->name}} ได้ลอยกระทงกับ loykrathong-tak.com " />
+    <meta property="og:title"         content="คุณได้ลอยกระทงกับ loykrathong-tak.com " />
     <meta property="og:description"   content="i have a good day !" />
     <meta property="og:image"         content="https://loykrathong-tak.com/img/s1.jpg" />
 
