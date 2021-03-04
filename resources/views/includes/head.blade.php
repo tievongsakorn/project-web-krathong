@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:url"           content="https://loykrathong-tak.com/" />
-    <meta property="og:type"          content="website" />
+    <meta property="og:type"          content="article" />
     <meta property="og:title"         content="คุณ{{$rec->name}} ได้ลอยกระทงออนไลน์กับ loykrathong-tak.com" />
     <meta property="og:description"   content="ลอยกระทงออนไลน์ ตาก" />
     <meta property="og:image"         content="https://loykrathong-tak.com/img/s1.jpg" />
